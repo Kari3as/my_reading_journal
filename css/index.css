@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:rgb(7, 110, 76);
+    font-family: "caveat";
+}
+
+.page_head{
+    display: flex;
+    background-color: rgb(243, 190, 255);
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.signup_btn{
+   font-size: 24px;
+}
+/* why color doesn't render?*/
+a:link{
+    color:rgb(7, 110, 76);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(222, 15, 57);
+    text-decoration: none;
+}
+.navi{
+    display: flex;
+    justify-content: center;
+}
+.navi_items{
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.navi_items:hover{
+    cursor:pointer;
+}
+.signup_form{
+    display: flex;
+    height: 100vh; 
+}
+fieldset{
+    margin: auto;
+    padding-top: 10px;
+    border: none;
+    color:rgba(44, 128, 238, 0.832);
+}
+.form_item{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "caveat";
+    margin-bottom: 12px;
+    color: ;
+}
+/* input should have same width & height, eventhough fignup_btn looks smaller?*/
+
+input{
+    width: 245px;
+    height: 35px;
+    border-radius: 5px;  
+}
+.signup_btn{
+    font-family: "caveat"; 
+    font-size: 20px;
+    color: white;
+    background-color:rgba(44, 128, 238, 0.832);
+}
+
